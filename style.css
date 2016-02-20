@@ -65,6 +65,7 @@
 
 .tops{
 padding-top: 5%;
+text-align: center;
 }
 .text{
 	
@@ -170,11 +171,7 @@ body{
   padding: 20px;
 }
 
-.contact{
-	position: relative;
-	z-index: -1;
-	/*margin-top: -20%;*/
-}
+
 .button span {
   cursor: pointer;
   display: inline-block;
@@ -298,20 +295,14 @@ ul.social-buttons li a.brandico-linkedin {
   background-color: #0e76a8;
 }
 
-ul#demo1 li a {
-  transition: transform 0.2s linear;
-}
 
-ul#demo1 li:hover a {
-  transform: translateY(-10px);
-}
 
-/*Demo 2*/
-ul#demo2 li a {
+
+ul#so li a {
   transition: transform 0.5s ease-in-out;
 }
 
-ul#demo2 li:hover a {
+ul#so li:hover a {
   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
 }
 
@@ -332,7 +323,7 @@ ul#demo2 li:hover a {
   
   
   background: url('ping.png') top right 55% no-repeat #263238;
-  background-size: 50%;
+  background-size: 45%;
 
 }
 
@@ -351,7 +342,7 @@ ul#demo2 li:hover a {
   color: #fff;
 
   background: url('cambio.png') top right 55% no-repeat #263238;
-  background-size: 50%;
+  background-size: 40%;
 
 }
 
@@ -382,9 +373,10 @@ ul#demo2 li:hover a {
   
   
   background: url('ping.png') top right 55% no-repeat #263238;
-  background-size: 40%;
+  background-size: 30%;
 
 }
+
 
 
 .card-square2.mdl-card {
