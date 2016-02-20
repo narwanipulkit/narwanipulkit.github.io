@@ -1,0 +1,416 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+#nav{
+	list-style-type: none;
+	margin: 0%;
+	padding-top: 0%;
+	margin-top: 0%;
+	padding: 0;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	
+
+}
+
+.card-square.mdl-card {
+  width: 500px;
+  height: 500px;
+  margin-left: 0%;
+  background: #263238
+
+}
+
+.mdl-shadow{
+	color: #fff;
+}
+
+.card-square > .mdl-card__title {
+  color: #fff;
+  
+  
+  background: url('ping.png') top right 55% no-repeat #263238;
+  background-size: 60%;
+
+}
+
+
+.card-square2.mdl-card {
+  width: 500px;
+   height: 500px;
+  margin-left: 30% ;
+  margin-top: 2%;
+  background: #263238;
+  
+
+}
+
+.card-square2 > .mdl-card__title2 {
+  color: #fff;
+
+  background: url('cambio.png') top right 55% no-repeat #263238;
+  background-size: 70%;
+
+}
+
+.mdl-card__supporting-text{
+	font-size: 1.5em;
+	text-align: center;
+	color:#dedede;
+	font-family: 'lato' ,sans-serif;
+
+
+}
+
+
+.tops{
+padding-top: 5%;
+}
+.text{
+	
+	
+	width: 100%;
+	padding-top: 3%;
+}
+
+.navi a{
+	font-family: Roboto;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	/*padding: 14px 16px;*/
+}
+
+.navi:hover{
+
+	border-color: #f00;
+	border-bottom: 2px;
+	border-bottom-color: #f00;
+
+}
+
+a:hover{
+	color: #f00;
+	border-bottom: 2px;
+	border-color: #f00;
+	text-decoration: none;
+}
+
+.navi{
+	display: inline;
+	float: right;
+	margin-right: 5%;
+}
+
+body{
+	background: #fff;
+}
+
+.mdl-typography--display-3{
+	color:#444;
+}
+
+#fp{
+	
+	background: #2196F3;
+	min-height: 100vh;
+
+}
+.content-grid{
+	width: 100%;
+}
+.head{
+	padding-top: 15%;
+	text-align: center;
+	font-family: "Roboto";
+	
+	color: #fff
+}
+.subhead{
+	
+	
+	color: #fff;
+	text-align: center;
+	
+	font-family: "Roboto"
+}
+.oth{
+	
+	color: #fff;
+	text-align: center;
+	padding-top: 5%;
+	font-family: "Roboto";
+	
+}
+#arrow{
+	margin-top: 10%;
+	
+	
+}
+.grid{
+	
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+
+}
+.button {
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1;
+  border-color: #f00;
+  color: #f00;
+  text-align: center;
+  font-size: 28px;
+  
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding: 20px;
+}
+
+.contact{
+	position: relative;
+	z-index: -1;
+	/*margin-top: -20%;*/
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 35px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.pic{
+
+
+	height: 180px;
+
+}
+
+#intro
+{
+	
+	
+	min-height: 96vh;
+	font-family: "Roboto";
+	font-size: 1.5em;
+	color:#727272; 
+	
+	
+}
+.small-head{
+
+	font-family: 'lato';
+	margin-bottom: 3%;
+	font-size: 2.7em;
+	text-align: center;
+	color:#dedede; 
+
+}
+#projects{
+	
+	min-height: 100vh;
+	background: #263238;
+	
+}
+
+.pic-text{
+	
+	font-size: 1.5em;
+	text-align: center;
+	color:#dedede; 
+}
+.wrapper{
+	margin-top: 8%;
+	
+	font-family: 'lato', sans-serif;
+	
+	margin-bottom: 3%;
+	border: 2px solid white;
+
+	
+}
+
+
+/*------Social Icons----*/
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
+
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #4099FF;
+}
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3B5998;
+}
+
+ul.social-buttons li a.brandico-instagram {
+  background-color: #3f729b;
+}
+
+ul.social-buttons li a.brandico-github {
+  background-color: #4EBBFF;
+}
+
+ul.social-buttons li a.brandico-linkedin {
+  background-color: #0e76a8;
+}
+
+ul#demo1 li a {
+  transition: transform 0.2s linear;
+}
+
+ul#demo1 li:hover a {
+  transform: translateY(-10px);
+}
+
+/*Demo 2*/
+ul#demo2 li a {
+  transition: transform 0.5s ease-in-out;
+}
+
+ul#demo2 li:hover a {
+  transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+
+
+@media screen and (max-width: 1070px){
+
+	
+ .card-square.mdl-card {
+  width: 400px;
+  height: 400px;
+  margin-left: 0%;
+  background: #263238
+
+}
+
+.card-square > .mdl-card__title {
+  color: #fff;
+  
+  
+  background: url('ping.png') top right 55% no-repeat #263238;
+  background-size: 50%;
+
+}
+
+
+.card-square2.mdl-card {
+   width: 400px;
+   height: 400px;
+   margin-left: 0%;
+   
+   background: #263238;
+  
+
+}
+
+.card-square2 > .mdl-card__title2 {
+  color: #fff;
+
+  background: url('cambio.png') top right 55% no-repeat #263238;
+  background-size: 50%;
+
+}
+
+.mdl-card__supporting-text{
+	font-size: 1.5em;
+	text-align: center;
+	color:#dedede;
+	font-family: 'lato' ,sans-serif;
+
+
+}
+}
+@media screen and (max-width: 400px){
+
+	.phone{
+		font-size: 6.2em;
+	}
+	.card-square.mdl-card {
+  width: 300px;
+  height: 300px;
+  margin-left: 0%;
+  background: #263238
+
+}
+
+.card-square > .mdl-card__title {
+  color: #fff;
+  
+  
+  background: url('ping.png') top right 55% no-repeat #263238;
+  background-size: 40%;
+
+}
+
+
+.card-square2.mdl-card {
+   width: 300px;
+   height: 300px;
+   margin-left: 0%;
+   
+   background: #263238;
+  
+
+}
+
+.card-square2 > .mdl-card__title2 {
+  color: #fff;
+
+  background: url('cambio.png') top right 55% no-repeat #263238;
+  background-size: 40%;
+
+}
+
+.mdl-card__supporting-text{
+	font-size: 1em;
+	text-align: center;
+	color:#dedede;
+	font-family: 'lato' ,sans-serif;
+
+
+}
+}
