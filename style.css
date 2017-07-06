@@ -108,7 +108,7 @@ a:hover{
 }
 
 body{
-	background-image: url('back.jpg');
+	background-image: url('./back.jpg');
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
