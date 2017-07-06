@@ -63,7 +63,7 @@
 }
 
 .txt{
-	line-height: 25px;
+	line-height: 30px;
 }
 
 
@@ -108,17 +108,40 @@ a:hover{
 }
 
 body{
-	background: #fff;
+	background-image: url('back.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.mdl-typography--display-1{
+	font-family: 'open sans', sans-serif;
+}
+
+.mdl-typography--display-4{
+	font-family: 'open sans', sans-serif;
 }
 
 .mdl-typography--display-3{
 	color:#444;
 }
 
+.overlay{
+	z-index: 1;
+	position: absolute;
+	min-height: 120vh;
+	min-width: 100vw;
+	background: rgba(0,0,0,0.75);
+}
+.header-color{
+
+	background: rgba(0,0,0,0.75);
+}
 #fp{
-	
-	background: #2196F3;
-	min-height: 100vh;
+	background-position: center;
+	background-size: 100%;
+	min-height: 110vh;
 
 }
 .content-grid{
@@ -128,22 +151,23 @@ body{
 	padding-top: 15%;
 	text-align: center;
 	font-family: "Roboto";
-	
-	color: #fff
+	z-index: 2;
+	color: #fff;
+	position: relative;
 }
 .subhead{
-	
-	
+	position: relative;
+	z-index: 2;
 	color: #fff;
 	text-align: center;
 	
 	font-family: "Roboto"
 }
 .oth{
-	
+	margin: 0%;
 	color: #fff;
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 10%;
 	font-family: "Roboto";
 	
 }
@@ -158,6 +182,10 @@ body{
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
 
+}
+.zpos{
+	z-index: 2;
+	position: relative;
 }
 .button {
   border-radius: 4px;
@@ -175,7 +203,6 @@ body{
   padding: 20px;
 }
 
-
 .button span {
   cursor: pointer;
   display: inline-block;
@@ -190,6 +217,10 @@ body{
   top: 0;
   right: -20px;
   transition: 0.5s;
+}
+#contact{
+	background: #fff;
+	margin: 0%;
 }
 
 .button:hover span {
@@ -209,9 +240,12 @@ body{
 
 #intro
 {
+	margin: 0%;
+	background: #fff;
+	z-index: 2;
+	position: relative;
 	
-	
-	min-height: 96vh;
+	min-height: 110vh;
 	font-family: "Roboto";
 	font-size: 1.5em;
 	color:#727272; 
@@ -229,7 +263,9 @@ body{
 }
 #projects{
 	
-	min-height: 100vh;
+	z-index: 2;
+	position: relative;
+	min-height: 110vh;
 	background: #263238;
 	
 }
@@ -242,13 +278,22 @@ body{
 }
 .wrapper{
 	margin-top: 8%;
-	
 	font-family: 'lato', sans-serif;
-	
 	margin-bottom: 3%;
 	border: 2px solid white;
 
 	
+
+}
+
+
+.end{
+	text-align: center;
+	font-family: 'Open Sans';
+	margin-top: 0%;
+	padding-top:2%; 
+	font-size: 110%;
+	margin-left: 1%;
 }
 
 
@@ -260,26 +305,27 @@ body{
 
 ul.social-buttons {
   text-align: center;
-  margin-top: 50px;
 }
 
 ul.social-buttons li {
   display: inline-block;
-  margin: 0 10px;
+  margin-left: 4px;
+ 
 }
 
 ul.social-buttons li a {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   display: block;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 20px;
+  line-height: 40px;
   color: white;
 }
 
-ul.social-buttons li a.brandico-twitter-bird {
+/**
+ul.social-buttons li a.socicon-twitter {
   background-color: #4099FF;
 }
 
@@ -290,9 +336,10 @@ ul.social-buttons li a.brandico-facebook {
 ul.social-buttons li a.brandico-instagram {
   background-color: #3f729b;
 }
-
+**/
 ul.social-buttons li a.brandico-github {
-  background-color: #4EBBFF;
+  background-color: #24292e;
+  margin-left: -90%;
 }
 
 ul.social-buttons li a.brandico-linkedin {
@@ -301,7 +348,7 @@ ul.social-buttons li a.brandico-linkedin {
 
 
 
-
+/**
 ul#so li a {
   transition: transform 0.5s ease-in-out;
 }
@@ -309,6 +356,7 @@ ul#so li a {
 ul#so li:hover a {
   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
 }
+**/
 
 
 @media screen and (max-width: 1070px){
