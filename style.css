@@ -5,7 +5,7 @@
 	margin: 0%;
 	padding-top: 0%;
 	margin-top: 0%;
-	padding: 0;
+	padding: 0%;
 	background: #fff;
 	width: 100%;
 	position: fixed;
@@ -48,8 +48,8 @@
 .card-square2 > .mdl-card__title2 {
   color: #fff;
 
-  background: url('cambio.png') top right 55% no-repeat #263238;
-  background-size: 70%;
+  background: url('teleprompter.png') top right 55% no-repeat #263238;
+  background-size:60%;
 
 }
 
@@ -393,7 +393,7 @@ ul#so li:hover a {
 .card-square2 > .mdl-card__title2 {
   color: #fff;
 
-  background: url('cambio.png') top right 55% no-repeat #263238;
+  background: url('teleprompter.png') top right 55% no-repeat #263238;
   background-size: 40%;
 
 }
@@ -444,7 +444,7 @@ ul#so li:hover a {
 .card-square2 > .mdl-card__title2 {
   color: #fff;
 
-  background: url('cambio.png') top right 55% no-repeat #263238;
+  background: url('teleprompter.png') top right 55% no-repeat #263238;
   background-size: 40%;
 
 }
